@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-challenge-shawandpartners",
+  "description": "Teste for full stack",
+  "main": "index.js",
+  "authors": [
+    "lukete"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/luketevl/full-stack-challenge-shawandpartners",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.5"
+  }
+}

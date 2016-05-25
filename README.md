@@ -1,2 +1,12 @@
-# full-stack-challenge-shawandpartners
-Teste for full stack
+# Full Stack test
+###Teste for full stack
+
+
+- Using
+  - nodejs
+  - angularjs
+  - express
+  - npm
+  - bower
+
+- Node runing in port 3000

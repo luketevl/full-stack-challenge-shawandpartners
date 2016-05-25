@@ -1,0 +1,29 @@
+{
+  "name": "full-stack-challenge-shawandpartners",
+  "version": "1.0.0",
+  "description": "Teste for full stack",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-load": "^1.1.15",
+    "express-validator": "^2.20.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luketevl/full-stack-challenge-shawandpartners.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "lukete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luketevl/full-stack-challenge-shawandpartners/issues"
+  },
+  "homepage": "https://github.com/luketevl/full-stack-challenge-shawandpartners"
+}

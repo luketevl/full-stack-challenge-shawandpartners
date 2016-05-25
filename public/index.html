@@ -1,0 +1,30 @@
+<html ng-app="app" ng-cloak>
+  <head>
+    <title>Palindrome</title>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- SCRIPTS CORE-->
+    <script src="bower_components/angular/angular.min.js"></script>
+
+    <!-- INCLUDE SYSTEM -->
+    <script src="js/app.js"></script>
+
+    <!-- CONTROLLERS -->
+    <script src="js/controllers/appController.js"></script>
+
+  </head>
+  <!-- Controller Principal -->
+  <body ng-controller="AppCtrl">
+    <section>
+      <form name="formValidate">
+        <input type="text" placeholder="Insert the content" ng-model="formValidate.val" />
+        <input type="button" value="Check" ng-click="checkContent(formValidate.val)" />
+        <span ng-if="isPalindrome">IS A PALINDROME</span>
+        <span ng-if="!isPalindrome">IS NOT A PALINDROME</span>
+      </form>
+
+    </section>
+  </body>
+</html>
