@@ -10,3 +10,4 @@
   - bower
 
 - Node runing in port 3000
+- Use localhost for test
